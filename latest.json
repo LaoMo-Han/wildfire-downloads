@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2026.10.14.1",
-  "build": 1,
+  "version": "2026.10.14.2",
+  "build": 2,
   "base_client": "1.0.192",
-  "notes": "发布中心与客户端更新器上线\n\n• 游戏本体和单机补丁可以在发布页下载。\n• 支持免登录提交文字和截图，反馈进度公开查看。\n• 大厅和练习场新增“检查更新 / 反馈 Bug”入口。\n• 游戏运行时先下载，退出后安装，保留个人档案和画质设置。\n• 恢复练习场、数字键装备购买与升级、波浪键撤销、原版滚轮技能。\n• 技能实际冷却同步倒计时，修复初始化对手反复下落。\n\n尚未恢复：多人匹配、账号服务、独立教学关卡及部分装备特殊效果。\n",
-  "published_at": "2026-10-14T08:39:46.855611+00:00",
+  "notes": "更新安装保护修复\n\n• 安装前检查全部受管理文件是否被占用，避免前面组件已经替换、后面才遇到文件锁。\n• 安装前核对备份和回滚所需空间；空间不足时保留当前版本。\n• 本次包含完整最新组件，可以从旧版本直接升级。\n",
+  "published_at": "2026-10-14T09:02:05.509209+00:00",
   "components": [
     {
       "name": "core-2026.10.14.1.zip",
@@ -36,15 +36,15 @@
       }
     },
     {
-      "name": "launcher-2026.10.14.1.zip",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/launcher-2026.10.14.1.zip",
-      "size": 32109,
-      "sha256": "ed6fbe8328429192318004ac2fc53124e10cb4df370f18c93bcf0c24840855de",
+      "name": "launcher-2026.10.14.2.zip",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.2/launcher-2026.10.14.2.zip",
+      "size": 32883,
+      "sha256": "312a40c4ba1fb517a3a32e8a6390ab72245d66ed6f9e312e56a8f93477346d8e",
       "id": "launcher",
       "files": {
-        "launch.exe": "72a11e268f54a7af3157a5aaccf08ef27ca0430592cff441c79f3eb321928ca1",
-        "update.exe": "f8c9458731f9675f39c01f8e760e732305a33c76d7db38e657c490ac4886aa4d",
-        "开始游戏.exe": "3d069478fae88f958ba57bf3570fb54237e13caabbb188cda0189d1daf618c8b",
+        "launch.exe": "9dd37df58b69166bd2eae4c8e8153726c0b877f2a85188fb1c79ac7cd818889a",
+        "update.exe": "79c7a1d426b0c9f9a7268f4bb424d93710522340a7f520724ac0db351db9d3c5",
+        "开始游戏.exe": "b3300dcfb2cb2efa498adb97d6326cb2a01521ca8cfe7743fd54a8c3b3c0a2e4",
         "start_offline.cmd": "f1b3cccc92cc33f307acb862fbc74d15e70d63bb7d4816abc442df3883f92d78",
         "launch.exe.config": "8ee9fa75402de2195e8a7cf27d3b48961703babbbe2d42fc158beb07dafe0301",
         "update.exe.config": "8ee9fa75402de2195e8a7cf27d3b48961703babbbe2d42fc158beb07dafe0301",
@@ -86,9 +86,9 @@
     }
   ],
   "manual_patch": {
-    "name": "wildfire-patch-2026.10.14.1.zip",
-    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/wildfire-patch-2026.10.14.1.zip",
-    "size": 40250967,
-    "sha256": "91c714afcb554e4291479f5c6a4a26914421f96ace9927665b89174461ba7c9e"
+    "name": "wildfire-patch-2026.10.14.2.zip",
+    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.2/wildfire-patch-2026.10.14.2.zip",
+    "size": 40251512,
+    "sha256": "644ef139cbbffdabf747e5142601098d3641a78fee1efebd52039bb2e20d907f"
   }
 }
