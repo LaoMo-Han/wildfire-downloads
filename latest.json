@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2026.10.14.3",
-  "build": 3,
+  "version": "2026.10.14.4",
+  "build": 4,
   "base_client": "1.0.192",
-  "notes": "更新提示显示修复\n\n• 游戏更新入口同时显示当前版本和可更新的目标版本。\n• 本次只有运行脚本变化，已有 2026.10.14.2 的玩家只需下载约 37 KiB 的脚本组件。\n• 更早版本可直接升级，自动补齐启动器组件，不需要下载整个游戏本体。\n",
-  "published_at": "2026-10-14T09:10:23.171833+00:00",
+  "notes": "修复退出安装时的目录参数\n\n• 修复 Windows 客户端目录末尾斜杠影响安装器参数解析的问题。\n• 保留安装前空间与文件占用检查，以及断电恢复日志。\n• 游戏内支持检查更新、确认下载、退出安装并重启。\n• 本体已重新制作，包含修正后的更新器。旧单机客户端先覆盖一次最新手动补丁。\n",
+  "published_at": "2026-10-14T09:26:14.130120+00:00",
   "components": [
     {
       "name": "core-2026.10.14.1.zip",
@@ -36,13 +36,13 @@
       }
     },
     {
-      "name": "launcher-2026.10.14.2.zip",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.2/launcher-2026.10.14.2.zip",
-      "size": 32883,
-      "sha256": "312a40c4ba1fb517a3a32e8a6390ab72245d66ed6f9e312e56a8f93477346d8e",
+      "name": "launcher-2026.10.14.4.zip",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/launcher-2026.10.14.4.zip",
+      "size": 32926,
+      "sha256": "b73d6cbe7e1a0a4910ae0e86ee42eceb81108b25895195ca0e8163ca6b6f5d6d",
       "id": "launcher",
       "files": {
-        "launch.exe": "9dd37df58b69166bd2eae4c8e8153726c0b877f2a85188fb1c79ac7cd818889a",
+        "launch.exe": "9da5531d1fb6c57dcdbe1aad950c2212a18bfcceda87692c7fdb6e82a7e4660a",
         "update.exe": "79c7a1d426b0c9f9a7268f4bb424d93710522340a7f520724ac0db351db9d3c5",
         "开始游戏.exe": "b3300dcfb2cb2efa498adb97d6326cb2a01521ca8cfe7743fd54a8c3b3c0a2e4",
         "start_offline.cmd": "f1b3cccc92cc33f307acb862fbc74d15e70d63bb7d4816abc442df3883f92d78",
@@ -55,40 +55,40 @@
   "remove": [],
   "base_downloads": [
     {
-      "name": "wildfire-offline-1.0.192-r2.7z.001",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/wildfire-offline-1.0.192-r2.7z.001",
+      "name": "wildfire-offline-1.0.192.7z.001",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-offline-1.0.192.7z.001",
       "size": 1572864000,
-      "sha256": "3845ad731ac310d8bf02694591521fa7cd2c31546d32b5e8d43b0d9c9eb136bb"
+      "sha256": "e0438e9667d1835083cbbdd49f993406848522836084d54a228e18b1674228bb"
     },
     {
-      "name": "wildfire-offline-1.0.192-r2.7z.002",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/wildfire-offline-1.0.192-r2.7z.002",
+      "name": "wildfire-offline-1.0.192.7z.002",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-offline-1.0.192.7z.002",
       "size": 1572864000,
-      "sha256": "178a8dd5b6476e6f051705e584d898a36ad1d11f269ebe0e30676f85b1c0efb1"
+      "sha256": "c89b8045bb0a7a7e78e38ba750dfc9d67c7463d33ed6774ce8a01349798b45ae"
     },
     {
-      "name": "wildfire-offline-1.0.192-r2.7z.003",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/wildfire-offline-1.0.192-r2.7z.003",
+      "name": "wildfire-offline-1.0.192.7z.003",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-offline-1.0.192.7z.003",
       "size": 1572864000,
-      "sha256": "f718b691fb86ff0770239fccdb471d8a5439e1026352deb2bfba714ce2bac94d"
+      "sha256": "b46a9ce825ac267154e451f3076d92fbd8a6d809b66c27e595ee8d8de5da02bb"
     },
     {
-      "name": "wildfire-offline-1.0.192-r2.7z.004",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/wildfire-offline-1.0.192-r2.7z.004",
+      "name": "wildfire-offline-1.0.192.7z.004",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-offline-1.0.192.7z.004",
       "size": 1572864000,
-      "sha256": "d10595852e8bd7639427e83229f599bf04cc0e44a80d816fdee83bae5a6eb9e3"
+      "sha256": "baffefbce83a56bb2a917e3612f308959d1895ed4c28bfecc2de055e9e9625c6"
     },
     {
-      "name": "wildfire-offline-1.0.192-r2.7z.005",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/wildfire-offline-1.0.192-r2.7z.005",
-      "size": 166070573,
-      "sha256": "a85b6d5181dfdfee6bc6916dda6a13f7a39146c72529d1efc8ddd9b69168d681"
+      "name": "wildfire-offline-1.0.192.7z.005",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-offline-1.0.192.7z.005",
+      "size": 166070773,
+      "sha256": "b05efa1041ef77a000e822cd9041bfd19ddb5574fc0efeb604b41c68cc5eba47"
     }
   ],
   "manual_patch": {
-    "name": "wildfire-patch-2026.10.14.3.zip",
-    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.3/wildfire-patch-2026.10.14.3.zip",
-    "size": 40251550,
-    "sha256": "915bcb544ad18f8f180a909afc3ccb59fe145ff0d0b3651735ec681375f53c07"
+    "name": "wildfire-patch-2026.10.14.4.zip",
+    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-patch-2026.10.14.4.zip",
+    "size": 40251671,
+    "sha256": "6864ad3b5f847e9a057d19535bbf5f6fad061d3ca3fd0e1c36df5c9e31469dc5"
   }
 }
