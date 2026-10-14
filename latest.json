@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2026.10.14.4",
-  "build": 4,
+  "version": "2026.10.14.5",
+  "build": 5,
   "base_client": "1.0.192",
-  "notes": "修复退出安装时的目录参数\n\n• 修复 Windows 客户端目录末尾斜杠影响安装器参数解析的问题。\n• 保留安装前空间与文件占用检查，以及断电恢复日志。\n• 游戏内支持检查更新、确认下载、退出安装并重启。\n• 本体已重新制作，包含修正后的更新器。旧单机客户端先覆盖一次最新手动补丁。\n",
-  "published_at": "2026-10-14T09:26:14.130120+00:00",
+  "notes": "更新状态提示优化\n\n• 断网或检查暂时失败时，入口显示“重试检查”；恢复网络后可手动再检查。\n• 已有 2026.10.14.4 的玩家只需下载约 37 KiB 的完整脚本组件。\n• 保留当前版本、目标版本和更新说明，玩家确认后才开始下载。\n• 本体含修正后的更新器。早期单机版本先手动覆盖一次最新补丁，之后可在游戏内更新。\n",
+  "published_at": "2026-10-14T09:45:05.434243+00:00",
   "components": [
     {
       "name": "core-2026.10.14.1.zip",
@@ -18,10 +18,10 @@
       }
     },
     {
-      "name": "runtime-2026.10.14.3.zip",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.3/runtime-2026.10.14.3.zip",
-      "size": 37136,
-      "sha256": "2a2ca6a4df17503a5ba87fc1cbf29a53e985b8a94d7c5900ff392366b0956a30",
+      "name": "runtime-2026.10.14.5.zip",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.5/runtime-2026.10.14.5.zip",
+      "size": 37210,
+      "sha256": "bbbb8da56279dbc1f8d58b2c094249b16dc2f25a1ec50d7b1f76ea5c0a2e4799",
       "id": "runtime",
       "files": {
         "bootstrap/EditorConf.py": "20a230273859168bf32d9229c6de621195147a646b20c93519be7d1c3557bbf2",
@@ -30,9 +30,9 @@
         "res/editor/client/offline_bag.py": "2f5359d7941c4e197b1bb93b6b7d73cd34164e979c4640086f4e4783e0e0b48c",
         "res/editor/client/offline_hall.py": "53b0732e03b5f46fab45c1e646cde4c1f180694f63f922e298eb9279175145ac",
         "res/editor/client/offline_practice.py": "d036c99fb74840c3c2a26296437fe1564f725deeeaf67bbf0a3b84022d5baa49",
-        "res/editor/client/offline_runtime.py": "18ec5ac9e6aa463b46c6e89046e6d48542b6391702b16b1d5b3c86f20a5a8563",
+        "res/editor/client/offline_runtime.py": "b4b4248666be7e24ea1fa94d090ad27ad728c0141f908057741d538ecb49c2e8",
         "res/editor/client/offline_settings.py": "f25801e2bef642c40e8401a21cd76f2b9cec6cae4e84228494824b45544a0da3",
-        "res/editor/client/offline_updates.py": "fd18a68bd712590f6f52911e14ae9f8de0ca15dea3df7a60812792f852bcf9b9"
+        "res/editor/client/offline_updates.py": "f490172dee8b1acfd8a7f773e82aea8d6d6832b52c8c93a87830f51a69d98b68"
       }
     },
     {
@@ -86,9 +86,9 @@
     }
   ],
   "manual_patch": {
-    "name": "wildfire-patch-2026.10.14.4.zip",
-    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.4/wildfire-patch-2026.10.14.4.zip",
-    "size": 40251671,
-    "sha256": "6864ad3b5f847e9a057d19535bbf5f6fad061d3ca3fd0e1c36df5c9e31469dc5"
+    "name": "wildfire-patch-2026.10.14.5.zip",
+    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.5/wildfire-patch-2026.10.14.5.zip",
+    "size": 40251763,
+    "sha256": "f65feb5540d96e5b3972933a0cc2b6e62ab0c88366c9d9f2c2783c7465cfdd4e"
   }
 }
