@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "2026.10.14.2",
-  "build": 2,
+  "version": "2026.10.14.3",
+  "build": 3,
   "base_client": "1.0.192",
-  "notes": "更新安装保护修复\n\n• 安装前检查全部受管理文件是否被占用，避免前面组件已经替换、后面才遇到文件锁。\n• 安装前核对备份和回滚所需空间；空间不足时保留当前版本。\n• 本次包含完整最新组件，可以从旧版本直接升级。\n",
-  "published_at": "2026-10-14T09:02:05.509209+00:00",
+  "notes": "更新提示显示修复\n\n• 游戏更新入口同时显示当前版本和可更新的目标版本。\n• 本次只有运行脚本变化，已有 2026.10.14.2 的玩家只需下载约 37 KiB 的脚本组件。\n• 更早版本可直接升级，自动补齐启动器组件，不需要下载整个游戏本体。\n",
+  "published_at": "2026-10-14T09:10:23.171833+00:00",
   "components": [
     {
       "name": "core-2026.10.14.1.zip",
@@ -18,10 +18,10 @@
       }
     },
     {
-      "name": "runtime-2026.10.14.1.zip",
-      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.1/runtime-2026.10.14.1.zip",
-      "size": 37093,
-      "sha256": "a2b62feda3e2c1a7e68b14fbd162019ba67b2c9d49d68723da7574626369234a",
+      "name": "runtime-2026.10.14.3.zip",
+      "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.3/runtime-2026.10.14.3.zip",
+      "size": 37136,
+      "sha256": "2a2ca6a4df17503a5ba87fc1cbf29a53e985b8a94d7c5900ff392366b0956a30",
       "id": "runtime",
       "files": {
         "bootstrap/EditorConf.py": "20a230273859168bf32d9229c6de621195147a646b20c93519be7d1c3557bbf2",
@@ -32,7 +32,7 @@
         "res/editor/client/offline_practice.py": "d036c99fb74840c3c2a26296437fe1564f725deeeaf67bbf0a3b84022d5baa49",
         "res/editor/client/offline_runtime.py": "18ec5ac9e6aa463b46c6e89046e6d48542b6391702b16b1d5b3c86f20a5a8563",
         "res/editor/client/offline_settings.py": "f25801e2bef642c40e8401a21cd76f2b9cec6cae4e84228494824b45544a0da3",
-        "res/editor/client/offline_updates.py": "3b365d45b13755ee65770333a9b0e4ea5154ecf08b3b9acb15848e3f8f2a0002"
+        "res/editor/client/offline_updates.py": "fd18a68bd712590f6f52911e14ae9f8de0ca15dea3df7a60812792f852bcf9b9"
       }
     },
     {
@@ -86,9 +86,9 @@
     }
   ],
   "manual_patch": {
-    "name": "wildfire-patch-2026.10.14.2.zip",
-    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.2/wildfire-patch-2026.10.14.2.zip",
-    "size": 40251512,
-    "sha256": "644ef139cbbffdabf747e5142601098d3641a78fee1efebd52039bb2e20d907f"
+    "name": "wildfire-patch-2026.10.14.3.zip",
+    "url": "https://github.com/LaoMo-Han/wildfire-downloads/releases/download/v2026.10.14.3/wildfire-patch-2026.10.14.3.zip",
+    "size": 40251550,
+    "sha256": "915bcb544ad18f8f180a909afc3ccb59fe145ff0d0b3651735ec681375f53c07"
   }
 }
